@@ -1,0 +1,32 @@
+etat:
+  intro: "\n\nAinsi débutent les aventures de %s\n\n"
+  tours: "\n☰☰☰☰☰☰☰☰☰☰☰☰ Tour numéro %i ☰☰☰☰☰☰☰☰☰☰☰☰\n\n"
+  hero: "\nEtat du héro: %s \n"
+  game_over: "\nGame Over !\n"
+  perdu: Vous avez perdu !
+  gagne: Vous avez gagné !
+  fuite: Vous venez de fuire !
+action:
+  demander: "\nQUELLE ACTION FAIRE ?"
+  ennemies: "\nLES ENNEMIS RIPOSTENT !"
+jeu:
+  actions: "◥■■■■■■■■ ACTIONS POSSIBLES ■■■■■■■■◤\n"
+  soin: " 0 ●●●● Se soigner"
+  bonus_attaque: " 1 ●●●● Améliorer son attaque"
+  attaquer: " %<index_ennemi>i ●●●● Attaquer %<ennemi_info>s"
+  quitter: " 99 ●●● Quitter"
+personne:
+  info_en_vie: "%<nom>s (%<points_de_vie>i PV)"
+  info_vaincu: "%s est vaincu !"
+  attaque_douleureuse: "%<nom>s a infligé %<degats>i de dégats à %<nom_ennemi>s"
+  attaque_mortelle: "%<nom>s a vaincu %<nom_ennemi>s"
+  attaque_rate: "%s a manqué sa cible..."
+joueur:
+  deuxieme_vie: "%s a récupéré tout ses points de vie"
+  soin_plaisant: "%<nom>s a récupéré %<gain>i PV"
+  bonus: "Vos coups sont maintenant augmenté de %i points"
+  degats: "Vous avez généré %<total_degats>i de dégats dont %<degats_bonus>i de dégats bonus"
+colorize:
+  rouge:  "\e[31m%s\e[0m"
+  vert:   "\e[32m%s\e[0m"
+  bleu:   "\e[34m%s\e[0m"
